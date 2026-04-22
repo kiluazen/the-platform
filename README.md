@@ -274,7 +274,7 @@ function App() {
     <div>
       <h1>Hello</h1>
       <React.Suspense maxDuration={300} fallback={'loading...'}>
-        <Img src="https://source.unsplash.com/random/4000x2000" />
+        <Img src="https://picsum.photos/4000/2000" />
       </React.Suspense>
     </div>
   );
